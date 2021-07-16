@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinkelManagementCL", "WinkelManagement\WinkelManagementCL.csproj", "{6C1076F7-C5A4-43AC-9463-E05568764D4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinkelManagementCS", "WinkelManagementCS\WinkelManagementCS.csproj", "{B82AC359-C694-438A-B994-8546860F7B7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C1076F7-C5A4-43AC-9463-E05568764D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1076F7-C5A4-43AC-9463-E05568764D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1076F7-C5A4-43AC-9463-E05568764D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1076F7-C5A4-43AC-9463-E05568764D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82AC359-C694-438A-B994-8546860F7B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82AC359-C694-438A-B994-8546860F7B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82AC359-C694-438A-B994-8546860F7B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82AC359-C694-438A-B994-8546860F7B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14C85828-2155-46E0-BC73-397E30E392EF}
+	EndGlobalSection
+EndGlobal

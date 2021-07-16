@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Changelog</title>
+    <style>
+        body {
+            font-family: arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+        .dateCol {
+            width:20%; max-width:20%;
+        }
+    </style>
+</head>
+<body>
+    <h3>Changelog</h3>
+    <table style="width:100%">
+        <tr>
+            <th class="dateCol">Datum</th>
+            <th>Beschrijving</th>
+        </tr>
+        <tr>
+            <td>24/03</td>
+            <td>Aanmaken van klasses, methodes, properties behalve events.</td>
+        </tr>
+        <tr>
+            <td>25/03</td>
+            <td>Toevoegen events.</td>
+        </tr>
+        <tr>
+            <td>28/03</td>
+            <td>Enkele zaken herwerken dmv feedback email.</td>
+        </tr>
+    </table>
+
+    <h3>Introspectie</h3>
+    <table style="width:100%">
+        <tr>
+            <th class="dateCol">Datum</th>
+            <th>Beschrijving</th>
+        </tr>
+        <tr>
+            <td>24/03</td>
+            <td>De klasses xEventsArgs erven over van de door System.Object beschikbaar gemaakte klasse EventArgs, welke op zichzelf nut kan dienen <a href="https://www.codeproject.com/Answers/573639/whyplusdoplusweplusneedplustoplusderiveplusfromplu">indien er sprake is van geen data</a> (.Empty)</td>
+        </tr>
+        <tr>
+            <td>25/03</td>
+            <td>De functionaliteiten op het vlak van raises en subscriben tot events werd toegevoegd. De output verschilt op dit moment met de opdracht.</td>
+        </tr>
+        <tr>
+            <td>28/03</td>
+            <td>Getracht private velden weg te halen bij Bestelling, lijkt me niet direct mogelijk door StackOverflow en nood aan valideringen.</td>
+        </tr>
+    </table>
+
+    <h4 style="font-weight:400">Benjamin Van Renterghem - Groep 1A</h4>
+</body>
+</html>

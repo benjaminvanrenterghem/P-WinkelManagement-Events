@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WinkelManagementCS/1.0.0": {
+        "dependencies": {
+          "WinkelManagementCL": "1.0.0"
+        },
+        "runtime": {
+          "WinkelManagementCS.dll": {}
+        }
+      },
+      "WinkelManagementCL/1.0.0": {
+        "runtime": {
+          "WinkelManagementCL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinkelManagementCS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WinkelManagementCL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
